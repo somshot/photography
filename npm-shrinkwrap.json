@@ -934,18 +934,6 @@
       "requires": {
         "lru-cache": "^4.0.1",
         "which": "^1.2.9"
-      },
-      "dependencies": {
-        "lru-cache": {
-          "version": "4.1.5",
-          "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz",
-          "integrity": "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==",
-          "dev": true,
-          "requires": {
-            "pseudomap": "^1.0.2",
-            "yallist": "^2.1.2"
-          }
-        }
       }
     },
     "currently-unhandled": {
@@ -2023,7 +2011,7 @@
       "dependencies": {
         "readable-stream": {
           "version": "1.0.34",
-          "resolved": "http://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz",
+          "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.34.tgz",
           "integrity": "sha1-Elgg40vIQtLyqq+v5MKRbuMsFXw=",
           "dev": true,
           "requires": {
@@ -2896,6 +2884,16 @@
       "requires": {
         "currently-unhandled": "^0.4.1",
         "signal-exit": "^3.0.0"
+      }
+    },
+    "lru-cache": {
+      "version": "4.1.5",
+      "resolved": "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz",
+      "integrity": "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g==",
+      "dev": true,
+      "requires": {
+        "pseudomap": "^1.0.2",
+        "yallist": "^2.1.2"
       }
     },
     "make-error": {
